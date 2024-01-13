@@ -16,7 +16,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px;
+  padding: 18px;
   background-color: #235;
   color: white;
 }
@@ -24,8 +24,13 @@
 
 
 .select-container {
+  top: 0;
   margin-left: auto; 
   background: rgba(0, 0, 0, 0.25);
+  position: absolute;
+  right: 0;
+  zoom: 1;
+  padding: 4px 9px !important;
  
 
 }

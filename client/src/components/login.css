@@ -22,8 +22,8 @@ body {
     
 }
 .login-page .logo-image{
-  margin-bottom: 60px;
-  max-width: 80%; /* Adjusted maximum width for smaller screens */
+  margin-bottom: 70px;
+  max-width: 80%; 
  
 }
 .login-page h1{
