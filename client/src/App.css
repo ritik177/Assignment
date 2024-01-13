@@ -1,0 +1,43 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background-color: #235;
+  color: white;
+}
+
+
+
+.select-container {
+  margin-left: auto; 
+  background: rgba(0, 0, 0, 0.25);
+ 
+
+}
+
+select {
+  padding-left: 0;
+  padding-right:35px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 4px;
+  margin-right: 10px;
+
+  font-size: 12px;
+}
+

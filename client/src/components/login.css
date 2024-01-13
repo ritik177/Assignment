@@ -1,0 +1,113 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #365789 0%, #000000 130%); 
+    
+  }
+  .container {
+    width: 100%; 
+}
+
+
+.login-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: transparent;
+    
+}
+.login-page .logo-image{
+  margin-bottom: 60px;
+  max-width: 80%; /* Adjusted maximum width for smaller screens */
+ 
+}
+.login-page h1{
+    margin-bottom: 12vh;
+    color: wheat;
+}
+
+
+ 
+  .form {
+  background-color: #fff; 
+  max-width: 480px;
+  padding: 20px;
+  border-radius: 8px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.login-form p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 12px; 
+   padding: 0;
+   text-align: left;
+  }
+
+  .form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f8f8f8;
+    border-radius: 6px;
+    width: 100%;
+    border: 0;
+    border: 1px solid #ccc;
+    margin: 0 0 15px;
+    margin-top: 10px;
+    padding: 8px 30px 8px 5px;
+    box-sizing: border-box;
+    transition: border-color 0.5s ease;
+    font-size: 24px;  
+  }
+  .form input:focus {
+    border-color: rgb(37, 169, 212); 
+  }
+
+
+  .form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    width: 15vh;
+   float: right;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    border-radius: 8px;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom, #b5d4e9 0%,#3e90c7 2%,#3484bb 50%,#2f74a3 50%,#296893 100%);
+  }
+ 
+ 
+ 
+  .form .register-form {
+    display: none;
+  }
+ 
+
+  @media (max-width: 768px) {
+    .form{
+      max-width: 60%;
+    }
+    .form input {
+        font-size: 18px;
+        padding: 8px 15px;
+    }
+
+    .form button {
+        width: auto;
+    }
+
+    .login-page .logo-image {
+        max-width: 70%; /* Adjusted maximum width for smaller screens */
+    }
+}
+
+
